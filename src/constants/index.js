@@ -5,7 +5,7 @@ export const ABOUT_TEXT = `For the past five years, I've thrived as a web publis
 export const EXPERIENCES = [
 	{
 		year: '2019 - Present',
-		role: 'Web Developer',
+		role: 'Front End DEV / Web Developer',
 		company: 'Cheil Germany GMBH Sp. z o.o.',
 		description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
 		technologies: ['HTML', 'CSS', 'Javascript', 'AEM'],
@@ -31,6 +31,5 @@ export const CONTACT = {
 	linkedin: 'https://www.linkedin.com/in/adrianzwada/',
 	email: 'adrian.zwada@gmail.com',
 	codewars: 'https://www.codewars.com/users/adrianzwada',
-	phone: '+48530326',
 	github: 'https://github.com/adrianzwada',
 }
