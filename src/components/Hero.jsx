@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants/index.js'
-import profileremovebg from '../assets/profileremovebg-v2.jpg'
+import profileremovebg from '../assets/profile-v3.jpg'
 const Hero = () => {
 	return (
 		<div className='border-b border-neutral-900 pb-24'>

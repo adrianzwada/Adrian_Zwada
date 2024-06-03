@@ -31,4 +31,6 @@ export const CONTACT = {
 	linkedin: 'https://www.linkedin.com/in/adrianzwada/',
 	email: 'adrian.zwada@gmail.com',
 	codewars: 'https://www.codewars.com/users/adrianzwada',
+	phone: '+48530326',
+	github: 'https://github.com/adrianzwada',
 }
