@@ -8,7 +8,7 @@ const About = () => {
 				whileInView={{ opacity: 1, x: 0 }}
 				initial={{ opacity: 0, x: 0 }}
 				transition={{ duration: 0.5 }}
-				className='my-20 text-center text-4xl '
+				className='my-20 text-center text-4xl uppercase'
 			>
 				About
 				<span className='text-center text-neutral-500'> Me</span>
@@ -18,9 +18,9 @@ const About = () => {
 					whileInView={{ opacity: 1, x: 0 }}
 					initial={{ opacity: 0, x: -100 }}
 					transition={{ duration: 0.5 }}
-					className='w-full lg:w-1/2 lg:p-8'
+					className='w-full flex items-center justify-center lg:w-1/2 lg:p-8'
 				>
-					<div className='flex items-center justify-center'>
+					<div className=''>
 						<img className='rounded-2xl' src={manProgramming} alt='man-programming-using-laptop' />
 					</div>
 				</motion.div>
@@ -31,7 +31,7 @@ const About = () => {
 					className='w-full lg:w-1/2'
 				>
 					<div className='flex items-center justify-center'>
-						<p className='my-2 max-w-xl py-6 text-align: center'>{ABOUT_TEXT}</p>
+						<p className='my-2 max-w-xl py-6 text-justify '>{ABOUT_TEXT}</p>
 					</div>
 				</motion.div>
 			</div>
