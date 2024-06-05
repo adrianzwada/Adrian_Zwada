@@ -10,14 +10,14 @@ const NavBar = () => {
 			<div className='flex flex-shrink-0 items-center'>
 				<img className='w-100 rounded-sm object-cover h-12 mx-2' src={logo} alt='Logo' />
 			</div>
-			<div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-				<a href={CONTACT.linkedin}>
+			<div className='m-8 flex items-center justify-center gap-4 text-2xl '>
+				<a href={CONTACT.linkedin} className='hover:text-cyan-300'>
 					<FaLinkedin />
 				</a>
-				<a href={CONTACT.github}>
+				<a href={CONTACT.github} className='hover:text-cyan-300'>
 					<FaGithub />
 				</a>
-				<a href={CONTACT.codewars}>
+				<a href={CONTACT.codewars} className='hover:text-cyan-300'>
 					<SiCodewars />
 				</a>
 			</div>

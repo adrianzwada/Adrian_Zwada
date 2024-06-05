@@ -1,8 +1,9 @@
 import { HERO_CONTENT } from '../constants/index.js'
-import profileremovebg from '../assets/profileremovebg-v2.png'
 import { motion } from 'framer-motion'
+import { RiContactsFill } from 'react-icons/ri'
+import { MdDownload } from 'react-icons/md'
+import profileremovebg from '../assets/profileremovebg-v2.png'
 import resume from '../assets/Adrian_Zwada_CV.pdf'
-
 const containerDelay = (delay, x = -200) => ({
 	hidden: { x: x, opacity: 0 },
 	visible: {
@@ -11,8 +12,15 @@ const containerDelay = (delay, x = -200) => ({
 		transition: { duration: 1, delay: delay },
 	},
 })
+// const handleScroll = ref => {
+// 	window.scrollTo({
+// 		top: ref.offsetTop,
+// 		left: 0,
+// 		behavior: 'smooth',
+// 	})
+// }
 
-function Hero() {
+function Hero({ contactMe }) {
 	return (
 		<div className='border-b border-neutral-900 pb-2'>
 			<div className='flex flex-wrap'>
@@ -43,20 +51,16 @@ function Hero() {
 							{HERO_CONTENT}
 						</motion.p>
 						<div className='flex items-center gap-3'>
-							<div
-								className='bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600'
-							>
+							<div className='bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600'>
 								<button className='px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline   md:font-semibold flex items-center gap-1 hover:gap-3'>
 									<span>Contact me</span>
+									<RiContactsFill size={16} />
 								</button>
 							</div>
-							<a href={resume} download={resume}>
-								<div
-									className='flex items-center gap-1 hover:gap-4 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline hover:text-white hover:no-underline md:font-semibold'
-									role='button'
-									target='_blank'
-								>
+							<a href={resume} download='Adrian_Zwada_CV'>
+								<div className='flex items-center gap-1 hover:gap-4 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline hover:text-white hover:no-underline md:font-semibold'>
 									<span>Get Resume</span>
+									<MdDownload size={16} />
 								</div>
 							</a>
 						</div>
@@ -68,8 +72,8 @@ function Hero() {
 					animate='visible'
 					className='w-full flex items-center justify-center lg:w-1/2 lg:p-8'
 				>
-					<div class='flex flex-col items-center justify-center sm:flex-row mt-6'>
-						<img class='rounded-2xl sm:w-full md:w-full lg:w-full' src={profileremovebg} alt='Adrian Zwada' />
+					<div className='flex flex-col items-center justify-center sm:flex-row mt-6'>
+						<img className='rounded-2xl sm:w-full md:w-full lg:w-full' src={profileremovebg} alt='Adrian Zwada' />
 					</div>
 				</motion.div>
 			</div>
