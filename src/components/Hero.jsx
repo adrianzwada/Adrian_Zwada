@@ -12,7 +12,10 @@ const containerDelay = (delay, x = -200) => ({
 	},
 })
 
-function Hero() {
+function Hero({contactRef}) {
+	const scrollToContact = () => {
+		window.scrollTo(0,contactRef.current.offsetTop)
+	}
 	return (
 		<div className='border-b border-neutral-900 pb-2'>
 			<div className='flex flex-wrap'>
@@ -47,7 +50,7 @@ function Hero() {
 								className='bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600'
 							>
 								<button className='px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline   md:font-semibold flex items-center gap-1 hover:gap-3'>
-									<span>Contact me</span>
+									<span onClick={scrollToContact}>Contact me</span>
 								</button>
 							</div>
 							<a href={resume} download={resume}>

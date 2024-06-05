@@ -2,9 +2,8 @@ import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import { publicKey } from '../constants/config.js'
 import { motion } from 'framer-motion'
-const ContactMe = () => {
+const ContactMe = ({contactRef}) => {
 	const form = useRef()
-	const contactRef = useRef()
 	const sendEmail = e => {
 		e.preventDefault()
 
