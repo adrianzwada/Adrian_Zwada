@@ -20,6 +20,7 @@ const containerDelay = (delay, x = -200) => ({
 // 	})
 // }
 
+
 function Hero({ contactMe }) {
 	return (
 		<div className='border-b border-neutral-900 pb-2'>

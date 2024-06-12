@@ -13,7 +13,6 @@ const icon = duration => ({
 		transition: { duration: duration, ease: 'linear', repeat: Infinity, repeatType: 'reverse' },
 	},
 })
-
 function Technologies() {
 	return (
 		<div className='border-b border-neutral-800 pb-24 uppercase'>
@@ -83,5 +82,4 @@ function Technologies() {
 		</div>
 	)
 }
-
 export default Technologies
