@@ -83,5 +83,4 @@ function Technologies() {
 		</div>
 	)
 }
-
 export default Technologies
