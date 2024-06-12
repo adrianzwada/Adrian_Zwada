@@ -75,6 +75,4 @@ const ContactMe = ({ contactMe }) => {
 		</motion.div>
 	)
 }
-
-
 export default ContactMe
