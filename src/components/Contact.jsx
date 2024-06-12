@@ -31,7 +31,7 @@ const ContactMe = ({ contactMe }) => {
 		>
 			<h2 className='my-20 text-center text-4xl uppercase'>
 				Contact
-				<span className='text-center text-neutral-500'> Me now</span>
+				<span className='text-center text-neutral-500'> Me</span>
 			</h2>
 			<div ref={contactMe} className='flex flex-wrap items-center justify-center w-full '>
 				<form ref={form} onSubmit={sendEmail} className='flex flex-col space-y-4 text-black '>
