@@ -18,7 +18,7 @@ export const EXPERIENCES = [
 		technologies: ['AEM', 'CRM', 'Sales'],
 	},
 ]
-
+// add next
 // export const PROJECTS = [
 // 	{
 // 		title: '',
