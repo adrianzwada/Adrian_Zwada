@@ -12,16 +12,14 @@ const containerDelay = (delay, x = -200) => ({
 		transition: { duration: 1, delay: delay },
 	},
 })
-// const handleScroll = ref => {
-// 	window.scrollTo({
-// 		top: ref.offsetTop,
-// 		left: 0,
-// 		behavior: 'smooth',
-// 	})
-// }
+function Hero({ contactRef }) {
+	const scrollToContact = () => {
 
+		contactRef?.current.scrollIntoView({
+			behavior: 'smooth',
+		})
 
-function Hero({ contactMe }) {
+	}
 	return (
 		<div className='border-b border-neutral-900 pb-2'>
 			<div className='flex flex-wrap'>
@@ -54,7 +52,7 @@ function Hero({ contactMe }) {
 						<div className='flex items-center gap-3'>
 							<div className='bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600'>
 								<button className='px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline   md:font-semibold flex items-center gap-1 hover:gap-3'>
-									<span>Contact me</span>
+									<span onClick={scrollToContact}>Contact me</span>
 									<RiContactsFill size={16} />
 								</button>
 							</div>
