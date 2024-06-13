@@ -7,7 +7,7 @@ export const EXPERIENCES = [
 		year: '2019 - Present',
 		role: 'Front End DEV / Web Developer',
 		company: 'Cheil Germany GMBH Sp. z o.o.',
-		description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+		description: `Demonstrated proficiency in the administration of websites, encompassing the meticulous management of product cards and campaign pages. Possess a keen eye for detail to ensure the seamless functioning of online platforms.`,
 		technologies: ['HTML', 'CSS', 'Javascript', 'AEM'],
 	},
 	{
