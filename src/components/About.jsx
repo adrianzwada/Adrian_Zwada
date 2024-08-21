@@ -1,4 +1,4 @@
-import manProgramming from '../assets/manProgramming.jpg'
+import manProgramming from '../../assets/manProgramming.jpg'
 import { ABOUT_TEXT } from '../constants'
 import { motion } from 'framer-motion'
 const About = () => {
