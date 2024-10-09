@@ -4,12 +4,21 @@ export const ABOUT_TEXT = `For the past five years, I've thrived as a web publis
 
 export const EXPERIENCES = [
 	{
+		year: '2023 - Present',
+		role: "Front-End Development Mentee",
+		company: 'Devs Mentoring',
+		description:
+			'Actively participating in a front-end development mentorship program to refine my coding integration skills. Gaining valuable insights into algorithms for optimized front-end performance. This program is fostering critical thinking and problem-solving abilities, solidifying my understanding of front-end principles, and equipping me with the confidence to tackle challenging projects.',
+		technologies: ['Javascript', 'React', 'Next', 'Algorithms'],
+	},
+	{
 		year: '2019 - Present',
 		role: 'Front End DEV / Web Developer',
 		company: 'Cheil Germany GMBH Sp. z o.o.',
 		description: `Demonstrated proficiency in the administration of websites, encompassing the meticulous management of product cards and campaign pages. Possess a keen eye for detail to ensure the seamless functioning of online platforms.`,
 		technologies: ['HTML', 'CSS', 'Javascript', 'AEM'],
 	},
+
 	{
 		year: '2017 - 2018',
 		role: 'Customer Advisor at Play',
