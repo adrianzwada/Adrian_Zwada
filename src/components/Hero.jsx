@@ -2,7 +2,7 @@ import { HERO_CONTENT } from '../constants/index.js'
 import { motion } from 'framer-motion'
 import { RiContactsFill } from 'react-icons/ri'
 import { MdDownload } from 'react-icons/md'
-import profileremovebg from '../../assets/profileremovebg-v2.png'
+import profileremovebg from '../../assets/profileremovebg-v2.webp'
 import resume from '../../assets/Adrian_Zwada_CV.pdf'
 const containerDelay = (delay, x = -200) => ({
 	hidden: { x: x, opacity: 0 },
@@ -14,11 +14,9 @@ const containerDelay = (delay, x = -200) => ({
 })
 function Hero({ contactRef }) {
 	const scrollToContact = () => {
-
 		contactRef?.current.scrollIntoView({
 			behavior: 'smooth',
 		})
-
 	}
 	return (
 		<div className='border-b border-neutral-900 pb-2'>
