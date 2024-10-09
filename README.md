@@ -33,12 +33,12 @@ Make sure you have [Git](https://git-scm.com/) and [GitHub CLI](https://cli.gith
 
   Ensure you have Node.js installed. Run the following command to install the required project dependencies:
 
-   ```sh
-   $npm install
-   ```
+  ```sh
+  npm install
+  ```
 
 4. Start the development server
 
-   ```sh
-   $npm run dev
-   ```
+  ```sh
+  $npm run dev
+  ```
