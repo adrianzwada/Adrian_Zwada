@@ -1,4 +1,4 @@
-import logo from '../../assets/Logo/logo-no-background-v2.png'
+import logo from '../assets/Logo/logo-no-background-v2.png'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { SiCodewars } from 'react-icons/si'
