@@ -2,9 +2,9 @@ import { HERO_CONTENT } from '../constants/index.js'
 import { motion } from 'framer-motion'
 import { RiContactsFill } from 'react-icons/ri'
 import { MdDownload } from 'react-icons/md'
-import profileremovebgSmall from '../assets/profileremovebg-v2-small.webp';
-import profileremovebgMedium from '../assets/profileremovebg-v2.webp';
-import profileremovebgLarge from '../assets/profileremovebg-v2-large.webp';
+import profileremovebgSmall from '../../assets/profileremovebgSmall.webp'
+import profileremovebgMedium from '../../assets/profileremovebgMedium.webp'
+import profileremovebgLarge from '../../assets/profileremovebgLarge.webp'
 import resume from '../assets/Adrian_Zwada_CV.pdf'
 import '../src/index.css';
 const containerDelay = (delay, x = -200) => ({
