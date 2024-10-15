@@ -6,7 +6,6 @@ import profileremovebgSmall from '../../assets/profileremovebgSmall.webp'
 import profileremovebgMedium from '../../assets/profileremovebgMedium.webp'
 import profileremovebgLarge from '../../assets/profileremovebgLarge.webp'
 import resume from '../assets/Adrian_Zwada_CV.pdf'
-import '../index.css';
 const containerDelay = (delay, x = -200) => ({
 	hidden: { x: x, opacity: 0 },
 	visible: {
