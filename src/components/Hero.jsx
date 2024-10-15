@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { RiContactsFill } from 'react-icons/ri'
 import { MdDownload } from 'react-icons/md'
 import resume from '../assets/Adrian_Zwada_CV.pdf'
-import profileremovebg from '../assets/profileremovebg.webp'
+import profileremovebg from '../assets/profileremovebg-v2.webp'
 const containerDelay = (delay, x = -200) => ({
 	hidden: { x: x, opacity: 0 },
 	visible: {
