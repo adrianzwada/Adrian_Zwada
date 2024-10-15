@@ -6,6 +6,7 @@ import About from './components/About'
 import Technologies from './components/Technologies'
 import { Experience } from './components/Experience'
 import ContactMe from './components/Contact'
+import './index.css'
 
 
 // const contactMe = useRef(null)
