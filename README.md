@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/adrianzwada/Adrian_Zwada/blob/main/src/assets/Hero-Section.webp" width="100" />
+  <img alt="Logo" src="https://github.com/adrianzwada/Adrian_Zwada/blob/main/src/assets/Hero-Section.webp" width="500" />
 </div>
 <h1 align="center">
  <a href="https://adrianzwada.vercel.app/" target="_blank">Check live version</a>
