@@ -16,18 +16,27 @@ Feel free to fork this repo for creating your own personal website, however plea
 ## 🛠 Running this project locally
 
 1. Clone this repository
+Make sure you have [Git](https://git-scm.com/) and [GitHub CLI](https://cli.github.com/) installed. Then, run the following command to clone the repository:
 
-   ```sh
-   $gh repo clone adrianzwada/Adrian_Zwada
-   ```
+```sh
+gh repo clone adrianzwada/Adrian_Zwada
 
-2. Install dependencies
+Alternatively, if you are not using GitHub CLI, you can clone it with Git:
+git clone https://github.com/adrianzwada/Adrian_Zwada.git
+
+2. Navigate to the project directory
+
+cd Adrian_Zwada
+
+3. Install dependencies
+
+Ensure you have Node.js installed. Run the following command to install the required project dependencies:
 
    ```sh
    $npm install
    ```
 
-3. Start the development server
+4. Start the development server
 
    ```sh
    $npm run dev
