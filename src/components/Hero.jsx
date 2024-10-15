@@ -4,6 +4,7 @@ import { RiContactsFill } from 'react-icons/ri'
 import { MdDownload } from 'react-icons/md'
 import profileremovebg from '../assets/profileremovebg-v2.webp'
 import resume from '../assets/Adrian_Zwada_CV.pdf'
+import '../src/index.css';
 const containerDelay = (delay, x = -200) => ({
 	hidden: { x: x, opacity: 0 },
 	visible: {
