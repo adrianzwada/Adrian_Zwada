@@ -2,7 +2,9 @@ import { HERO_CONTENT } from '../constants/index.js'
 import { motion } from 'framer-motion'
 import { RiContactsFill } from 'react-icons/ri'
 import { MdDownload } from 'react-icons/md'
-import profileremovebg from '../assets/profileremovebg-v2.webp'
+import profileremovebgSmall from '../assets/profileremovebg-v2-small.webp';
+import profileremovebgMedium from '../assets/profileremovebg-v2.webp';
+import profileremovebgLarge from '../assets/profileremovebg-v2-large.webp';
 import resume from '../assets/Adrian_Zwada_CV.pdf'
 import '../src/index.css';
 const containerDelay = (delay, x = -200) => ({
@@ -70,13 +72,20 @@ function Hero({ contactRef }) {
                 animate='visible'
                 className='w-full flex items-center justify-center lg:w-1/2 lg:p-8'
            >
-           <div className='flex flex-col items-center justify-center sm:flex-row mt-6'>
-              <img
-              alt="Adrian Zwada"
-              className="rounded-2xl w-[499px] h-[500px]"
-              src={profileremovebg}
-              />
-           </div>
+			<div className='flex flex-col items-center justify-center sm:flex-row mt-6'>
+				<img
+					alt="Adrian Zwada"
+					className="rounded-2xl"
+					src={profileremovebgMedium}
+					srcSet={`
+						${profileremovebgSmall} 320w,
+						${profileremovebgMedium} 499w,
+						${profileremovebgLarge} 750w
+						`}
+					sizes="(max-width: 768px) 320px, (min-width: 769px) 499px, (min-width: 1024px) 750px"
+					loading="lazy"
+				/>
+			</div>
            </motion.div>
 			</div>
 		</div>
