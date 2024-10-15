@@ -83,7 +83,6 @@ function Hero({ contactRef }) {
 						${profileremovebgLarge} 750w
 						`}
 					sizes="(max-width: 768px) 320px, (min-width: 769px) 499px, (min-width: 1024px) 750px"
-					loading="lazy"
 				/>
 			</div>
            </motion.div>
