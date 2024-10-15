@@ -35,7 +35,7 @@ function Hero({ contactRef }) {
 							Adrian Zwada
 						</motion.h1>
 						<motion.span
-							variants={containerDelay(0.5)}
+							variants={containerDelay(0.3)}
 							initial='hidden'
 							animate='visible'
 							className='bg-gradient-to-r from-pink-300  to-purple-500 bg-clip-text text-3xl tracking-light text-transparent'
@@ -43,12 +43,12 @@ function Hero({ contactRef }) {
 							Front End Developer / Web Publisher
 						</motion.span>
 						<motion.p
-							variants={containerDelay(0.5)}
+							variants={containerDelay(0.3)}
 							initial='hidden'
 							animate='visible'
 							className='my-2 max-w-xl py-6 font-light tracking-tighter'
 						>
-							{HERO_CONTENT}
+							{HERO_CONTENT ? HERO_CONTENT : "Loading..."}
 						</motion.p>
 						<div className='flex items-center gap-3'>
 							<div className='bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600'>
