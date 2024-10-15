@@ -70,7 +70,7 @@ function Hero({ contactRef }) {
 					className='w-full flex items-center justify-center lg:w-1/2 lg:p-8'
 				>
 					<div className='flex flex-col items-center justify-center sm:flex-row mt-6'>
-						<img rel="preload" className='rounded-2xl sm:w-full md:w-full lg:w-full' src={profileremovebg} alt='Adrian Zwada'/>
+						<img className='rounded-2xl sm:w-full md:w-full lg:w-full' src={profileremovebg} alt='Adrian Zwada'/>
 					</div>
 				</motion.div>
 			</div>
