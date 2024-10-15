@@ -64,17 +64,18 @@ function Hero({ contactRef }) {
 					</div>
 				</div>
 				<motion.div
-					variants={containerDelay(0, 200)}
+					variants={containerDelay(0.0, 200)}
 					initial='hidden'
 					animate='visible'
 					className='w-full flex items-center justify-center lg:w-1/2 lg:p-8'
 				>
 					<div className='flex flex-col items-center justify-center sm:flex-row mt-6'>
+						
 					<img
+						loading="lazy"	
+						alt="Adrian Zwada"
 						className="rounded-2xl w-[499px] h-[500px]"
 						src={profileremovebg}
-						alt="Adrian Zwada"
-						loading="lazy"
 					/>
 					</div>
 				</motion.div>
