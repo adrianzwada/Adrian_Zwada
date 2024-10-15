@@ -1,6 +1,8 @@
-import manProgramming from '../assets/manProgramming.webp'
+
 import { ABOUT_TEXT } from '../constants'
 import { motion } from 'framer-motion'
+import manProgramming from '../assets/manProgramming.webp'
+
 const About = () => {
 	return (
 		<div className='border-b border-neutral-900 pb-4'>
