@@ -7,6 +7,7 @@ import Technologies from './components/Technologies'
 import { Experience } from './components/Experience'
 import ContactMe from './components/Contact'
 
+
 // const contactMe = useRef(null)
 function App() {
 	const contactRef = useRef(null)
