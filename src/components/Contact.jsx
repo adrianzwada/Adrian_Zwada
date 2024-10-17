@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { publicKey } from '../constants/config.js';
 import { motion } from 'framer-motion';
-import ReCAPTCHA from 'react-google-recaptcha'; // Direct import since you're using Vite
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const recaptchaPublicKey = '6LfJg_cpAAAAANTW6kxtbWVSwptMEkgnAiLOdx0f'; 
 
