@@ -4,7 +4,7 @@ import { publicKey } from '../constants/config.js';
 import { motion } from 'framer-motion';
 import ReCAPTCHA from 'react-google-recaptcha';
 
-const recaptchaPublicKey = '6LfJg_cpAAAAANTW6kxtbWVSwptMEkgnAiLOdx0f'; 
+const recaptchaPublicKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
 
 const ContactMe = ({ contactRef }) => {
   const form = useRef();
