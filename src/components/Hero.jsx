@@ -74,7 +74,6 @@ function Hero({ contactRef }) {
            >
 			<div className='flex flex-col items-center justify-center sm:flex-row mt-6'>
 				<img
-					rel="preload"
 					alt="Adrian Zwada"
 					className="rounded-2xl"
 					src={profileremovebgLarge}
