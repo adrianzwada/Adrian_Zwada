@@ -29,9 +29,9 @@ export const Experience = () => {
 							transition={{ duration: 1 }}
 							className='w-full max-w-xl lg:w-3/4'
 						>
-							<h4 className='mb-2 font-semibold text-lg '>
+							<h3 className='mb-2 font-semibold text-lg '>
 								{experience.role} - <span className='text-purple-100'>{experience.company} </span>
-							</h4>
+							</h3>
 							<p className='mb-4 text-neutral-400 text-justify'>{experience.description}</p>
 							{experience.technologies.map((tech, index) => (
 								<span
