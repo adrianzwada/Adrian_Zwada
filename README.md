@@ -7,6 +7,7 @@
 <p align="center">
   Live version of my portfolio website built with <a href="https://react.dev/" target="_blank">React</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
+<p>Check PageSpeed Insights raport <a href="https://pagespeed.web.dev/analysis/https-adrianzwada-vercel-app/juezzojrsg?form_factor=mobile" target="_blank">Here</a></p>
 
 
 ## 🚨 Forking this repo
