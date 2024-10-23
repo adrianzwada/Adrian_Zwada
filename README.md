@@ -8,7 +8,7 @@
   Live version of my portfolio website built with <a href="https://react.dev/" target="_blank">React</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 <p align="center">
-    Check PageSpeed Insights raport <a href="https://pagespeed.web.dev/analysis/https-adrianzwada-vercel-app/juezzojrsg?form_factor=mobile" target="_blank">Here</a>
+    Check PageSpeed Insights raport <a href="https://pagespeed.web.dev/analysis/https-adrianzwada-vercel-app/n6x5b1vdo0?form_factor=desktop" target="_blank">Here</a>
 </p>
 
 
